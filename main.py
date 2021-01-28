@@ -1,5 +1,5 @@
 import time,json,requests,random,datetime
-import campus
+import campus 
 
 def main():
     #定义变量
@@ -8,7 +8,7 @@ def main():
     phone, password, deviceId, sckey = [], [], [], []
     #多人循环录入
     while True:  
-        try:
+        try: 
             users = input()
             info = users.split(',')
             phone.append(info[0])
